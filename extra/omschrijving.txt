@@ -1,0 +1,19 @@
+In het receptenboek moeten gebruikers recepten kunnen:
+-toevoegen
+-wijzigen
+-verwijderen.
+- Het geheel moet een aantrekkelijke opmaak hebben.
+
+Hiervoor heb je in ieder geval twee classes nodig.
+
+Bonus:
+Recepten liken / opslaan
+Recepten opslaan met eigen variant of aantekeningen
+Recepten omrekenen naar ander aantal personen
+Suggesties voor andere relevante recepten als je een recept geopend hebt of obv opgeslagen recepten
+User profielen laten zien en kunnen aanpassen
+
+Leuke ideeen geinspireerd door team DNA:
+- Foto's toevoegen aan recepten (wellicht ook door andere gebruikers die het zelf gemaakt hebben)
+- Paginering van recepten
+- Recepten in categorieen indelen
