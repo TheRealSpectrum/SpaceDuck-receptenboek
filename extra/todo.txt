@@ -13,4 +13,14 @@
 - catagorie (hoofdgerecht, nagerecht, voorgerecht, tussendoor, lunchgerecht)
 - aantal personen
 - ingredienten + hoeveelheden
-- 
+
+--> Formulier <--
+- Naam persoon
+- Naam recept
+- Categorie
+- Aantal personen
+- Aantal ingredienten
+- Ingredienten zelf
+- Hoeveelheid per ingredient
+- Eenheid
+- Recept
