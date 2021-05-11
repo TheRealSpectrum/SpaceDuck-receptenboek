@@ -1,0 +1,16 @@
+(niet in volgorde)
+
+- css (bootstrap?)
+- formulier om recept te maken
+- validatie formulier
+- bedenken waar we een class voor aanmaken
+- indeling database bedenken (+ in kaart brengen)
+- 
+
+---> opbouw recept <--
+- naam van persoon die recept aan heeft gemaakt
+- naam recept
+- catagorie (hoofdgerecht, nagerecht, voorgerecht, tussendoor, lunchgerecht)
+- aantal personen
+- ingredienten + hoeveelheden
+- 
