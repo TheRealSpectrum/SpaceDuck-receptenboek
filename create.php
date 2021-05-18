@@ -16,16 +16,13 @@
             <input type="number" name="aantal_personen"><br>
             <label for="aantal ingredienten">Aantal Ingredienten</label>
             <input type="number" name="aantal_ingredienten"><br>
+            <input type="submit"> <br><br>
+
             
-            <label for="ingredient">Ingredient</label>
-            <input type="text" name="ingredient"><br>
             <label for="naam ingredient">Naam Ingredient</label>
             <input type="text" name="naam_ingredient"><br>
             <label for="hoeveelheid">Hoeveelheid</label>
             <input type="number" name="hoeveelheid"><br>
-            <label for="eenheid">Eenheid</label>
-            <input type="text" name="eenheid"><br>
-
             <select name = "eenheid">
             <option value = "gram" selected>Gram</option>
             <option value = "kilogram">Kilogram</option>
