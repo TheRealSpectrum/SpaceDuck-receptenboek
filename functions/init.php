@@ -1,3 +1,3 @@
 <?php
-    include("validation_functions.php");
+    require("validation_functions.php");
 ?>
