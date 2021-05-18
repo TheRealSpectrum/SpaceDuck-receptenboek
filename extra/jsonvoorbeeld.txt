@@ -1,0 +1,22 @@
+{
+    "counter" : "3",
+    "1" : {
+        "maker" : "naam_maker",
+        "naam recept" : "naam_recept",
+        "catergorie" : "naam_categorie",
+        "aantal personen" : "aantal_personen",
+        "ingredienten" : [
+            ["naam_ingredient", "hoeveelheid", "eenheid"],
+            ["naam_ingredient", "hoeveelheid", "eenheid"]
+        ]
+    },
+    "2" : {
+        "maker" : "naam_maker",
+        "naam recept" : "naam_recept",
+        "catergorie" : "naam_categorie",
+        "aantal personen" : "aantal_personen",
+        "ingredienten" : [
+            ["naam_ingredient", "hoeveelheid", "eenheid"]
+        ]
+    }
+}
