@@ -3,7 +3,7 @@
     require_once("functions/init.php");
     include("parts/header.php");
 ?>
-    <section class=bg-light>
+    <section class="bg-light w-50" >
         <h1>Mijn Recept</h1>
 
         <form action="./parts/insert.php" method="post">
@@ -18,7 +18,7 @@
             <label for="ingredienten">Ingredienten</label>
             <input type="text" name="ingredienten" required><br>
             <label for="recept">Recept</label><br>
-            <textarea id="recept" name="recept" rows="20" cols="50" required></textarea><br>
+            <textarea id="recept" name="recept" rows="20" cols="50" required ></textarea><br>
             <input type="submit">    
         </form>
 
