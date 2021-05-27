@@ -9,8 +9,8 @@
     </head>
     <body>
         <main role="main" class="container-fluid min-vh-100 p-3">
-            <nav class="container-fluid">
+            <nav class="container-fluid p-3">
                 <a href="index.php" class="btn btn-primary">Hoofd pagina</a>   
                 <a href="create.php" class="btn btn-primary">Maak nieuw recept aan</a>   
             </nav>
-            <div class="container-fluid">
+            <div class="container-fluid p-3">
