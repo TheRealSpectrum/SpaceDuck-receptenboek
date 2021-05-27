@@ -19,8 +19,9 @@
                     $result .= "<p class='card-text'>" . htmlspecialchars($row["ingredienten"]) . "</p>";
                     $result .= "<h6>Recept:</h6>";
                     $result .= "<p class='card-text'>" . htmlspecialchars($row["recept"]) . "</p>";
-                    $result .= "<p class='card-footer text-muted'>Gemaakt door: " . htmlspecialchars($row["naam_maker"]) . "</p>";
-                    $result .= "</div></div></div>";
+                    $result .= "</div>";
+                    $result .= "<div class='card-footer text-muted'>Gemaakt door: " . htmlspecialchars($row["naam_maker"]) . "</div>";
+                    $result .= "</div></div>";
                     echo $result;        
                 }
                 mysqli_free_result($all_rows);
