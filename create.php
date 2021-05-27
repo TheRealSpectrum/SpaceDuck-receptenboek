@@ -3,7 +3,7 @@
     require_once("functions/init.php");
     include("parts/header.php");
 ?>
-    <section>
+    <section class=bg-light>
         <h1>Mijn Recept</h1>
 
         <form action="./parts/insert.php" method="post">

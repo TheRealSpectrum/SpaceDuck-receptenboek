@@ -14,3 +14,4 @@
                 <a href="create.php" class="btn btn-primary">Maak nieuw recept aan</a>   
             </nav>
             <div class="container-fluid p-3">
+                 
