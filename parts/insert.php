@@ -2,7 +2,7 @@
 
 include_once 'db.php';
 
-if(isset($_POST["submit"])) {
+if(isset($_POST["naam_maker"])) {
   $maker = $_POST["naam_maker"];
   $naam_recept = $_POST["naam_recept"];
   $categorie = $_POST["naam_categorie"];
@@ -11,8 +11,6 @@ if(isset($_POST["submit"])) {
   $recept = $_POST["recept"];
 
   $sql = "INSERT INTO `receptenboek` . `recepten` (`id`, `naam_maker`, `naam_recept`, `naam_categorie`, `aantal_personen`, `ingredienten`, `recept`) VALUES (NULL, '$maker', '$naam_recept', '$categorie', '$personen', '$ingredienten', '$recept')";
-
-  $conn->query($sql);
 
   if (mysqli_query($conn, $sql)) {
     echo "Recept succesvol toegevoegd";
