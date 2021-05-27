@@ -3,14 +3,14 @@
     include("parts/header.php");
 ?> 
  
-        <div class="card-group row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php 
                 $all_rows = get_all_rows();
                 while($row = $all_rows->fetch_assoc()) {
                     $result = "<div class='col'>";
-                    $result .= "<div class='card text-dark bg-light mb-3 h-100'>";
+                    $result .= "<div class='card text-dark bg-light mb-3'>";
                     $result .= "<h5 class='card-header'>" . htmlspecialchars($row["naam_recept"]) . "</h5>";
-                    $result .= "<div class='card-body'>";
+                    $result .= "<div class='card-body overflow-auto'>";
                     $result .= "<h6>Categorie:</h6>";
                     $result .= "<p class='card-text'>" . htmlspecialchars($row["naam_categorie"]) . "</p>";
                     $result .= "<h6>Aantal Personen:</h6>";
