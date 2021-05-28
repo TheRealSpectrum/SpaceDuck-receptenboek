@@ -1,0 +1,43 @@
+Presentatie Team SpaceDuck Receptenboek 
+
+Wat gaan we vertellen?
+
+Introductie:
+- Welkom bij derde presentatie alweer. Drie weken zijn voorbij gevlogen. Bespreken agenda
+- Voorstellen Team SpaceDuck
+- Rollen: Introductie, show & tell en afsluiting door Patricia, klikker Etienne.
+    Code zal samen worden besproken, klikker Patricia
+- Wat hebben we gedaan? Afgelopen sprint vooral OOP + databases
+    Opdracht sluit daarop aan; creeer een online receptenboek
+    Nadruk op database/interactie daarmee.
+    
+Project:
+- Show & Tell: Dan nu een demonstratie van ons project. 
+- Index: Verschillende onderdelen;
+    - Bovenin Hoofdpagina/maak een recept aan
+    - Kaarten; Naam van het gerecht, categorie (welke maaltijd), aantal personen, ingredienten, het recept zelf.
+    - Kaarten; onderaan de naam van de auteur. Bij grote lappen text scroll binnen kaart 
+- Create: Verschillende onderdelen;
+    - Velden waar alles ingevuld kan worden: text, behalve aantal personen, integer
+    - Elk veld verplicht, want geen incomplete recepten
+    - Onderaan submit-knop
+- Create voorbeeld uitvoer
+    - Voorbeeld recept invoeren
+    - Na submit automatisch naar index waar recept als eerste in de lijst wordt weergegeven
+
+- Code: Kijken hoe alles is opgebouwd
+    - Laten zien phpmyadmin, uitleg simpele database met tabel waarin alle kolommen worden opgeslagen
+    - Voor vormgeving gebruik gemaakt van php/html/css bootstrap
+    - Uitleg create; formulier, submit zorgt voor triggeren db/insert
+    - In insert zit ook een stukje validatie ingebouwd. 
+    - Nog voorbeeld invoer waarbij teruggegrepen wordt naar phpadmin na submit
+    Deel Etienne
+    - Uitleg opbouw index + functions
+
+- Afsluiting
+    - Einde demo, hopelijk leuk geweest voor kijkers. Vragen/opmerkingen?
+    - Bedankt voor de tijd en aandacht, veel plezier met overige presentaties. 
+    
+    
+
+
