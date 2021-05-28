@@ -5,6 +5,11 @@
 body {
     background-image: url("food-icons-6020483_1280.png");
 }
+
 section {
     --bs-secondary: #6c757d;
+}
+
+textarea {
+    resize: none;
 }
