@@ -31,8 +31,8 @@
                 <label class="form-label" for="recept">Recept</label>
                 <textarea class="form-control border border-dark" id="recept" name="recept" rows="20" cols="50" required ></textarea>
             </div>
-            <div class="col-8 offset-md-2">
-                <input type="submit" name="submit" class="btn btn-secondary form-control rounded-pill border border-dark" value="Maak Recept">
+            <div class="d-grid col-8 mx-auto">
+                <button type="submit" name="submit" class="btn btn-secondary rounded-pill border border-dark" value="Maak Recept">Maak Recept Aan</button>
             </div>    
         </form>
 
